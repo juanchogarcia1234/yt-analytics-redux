@@ -6,23 +6,23 @@
     background-image: url("background.gif");
 }*/
 
-body, body.pushable  {
-    background-image: url("background.gif")!important;
-   
+body,
+body.pushable {
+  background-image: url("background.gif") !important;
 }
 
-body.pushable>.pusher {
-    background-image: url("background.gif")!important;
+body.pushable > .pusher {
+  background-image: url("background.gif") !important;
 }
 
 .headerApp {
-    z-index: 1002;
+  z-index: 1002;
 }
 
 .headerApp a {
-    color: white!important;
+  color: white !important;
 }
 
-.pushable>.pusher.dimmed:after {
-    opacity: 0!important;
+.pushable > .pusher.dimmed:after {
+  opacity: 0 !important;
 }
